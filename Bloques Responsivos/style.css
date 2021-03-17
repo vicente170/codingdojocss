@@ -1,0 +1,119 @@
+*{
+    outline:1px dotted red;
+}
+
+.wrapper{
+    display:grid;
+    grid-template-columns: repeat(12,1fr) ;
+    gap:24px;
+    
+}
+
+.header{
+    background-color: green;
+    min-height: 100px;
+    grid-column: 1 / 13;
+}
+
+.navigation{
+    background-color: blue;
+    height: 300px;
+    grid-column: 1 / 4;
+}
+
+.main-content{
+    background-color: red;
+    min-height: 300px;
+    grid-column: 4 / 13;
+    display: grid;
+    gap:20px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 20px;
+}
+
+.subcontents1{
+    background-color: yellow;
+    min-height: 100px;
+    grid-column: 1 / 2;
+}
+.subcontents2{
+    background-color: yellow;
+    min-height: 100px;
+    grid-column: 2 / 3;
+}
+.subcontents3{
+    background-color: yellow;
+    min-height: 100px;
+    grid-column: 3 / 4;
+}
+.advertisement{
+    background-color: purple;
+    grid-column: 1 / 4;
+    height: 100px;
+}
+
+@media (max-width: 480px){
+    .main-content{
+        grid-column: 1 / 13;
+        grid-template-columns: 1fr;
+    }
+    .subcontents1{
+        grid-column: 1 / 2;
+    }
+    .subcontents2{
+        grid-column: 1 / 2;
+    }
+    .subcontents3{
+        grid-column: 1 / 2;
+    }
+    .advertisement{
+        grid-column: 1 / 2;
+    }
+    .navigation{
+        display:none;
+    }
+}
+
+@media (min-width: 481px){
+    .main-content{
+        grid-column: 1 / 13;
+        grid-template-columns: 1fr 1fr;
+    }
+    .subcontents1{
+        grid-column: 1 / 2;
+    }
+    .subcontents2{
+        grid-column: 2 / 3;
+    }
+    .subcontents3{
+        grid-column: 1 / 2;
+    }
+    .advertisement{
+        grid-column: 1 / 3;
+    }
+    .navigation{
+        display:none;
+    }
+}
+
+@media(min-width:1024px){
+    .main-content{
+        grid-column: 4 / 13;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .subcontents1{
+        grid-column: 1 / 2;
+    }
+    .subcontents2{
+        grid-column: 2 / 3;
+    }
+    .subcontents3{
+        grid-column: 3 / 4;
+    }
+    .advertisement{
+        grid-column: 1 / 4;
+    }
+    .navigation{
+        display:unset;
+    }
+}
