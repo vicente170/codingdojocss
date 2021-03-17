@@ -1,0 +1,111 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 1px dotted red;
+   }
+
+
+   #wrapper{
+    width: 950px;
+    background-color: rgb(13, 34, 153);
+    margin: 0px auto;
+    padding: 20px;
+
+   }
+   #header{
+    
+    background-color: rgb(197, 32, 10);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px;
+   }
+
+   #footer{
+    
+    background-color: grey;
+    margin-bottom: 20px;
+    margin-top:20px;
+    border-radius: 20px;
+    padding: 20px;
+   }
+
+   #footer p{
+    
+    color:white;
+   }
+
+   #footer a{
+    
+    color:rgb(4, 237, 245);
+   }
+
+   #header h1{
+    vertical-align: middle;
+    color:whitesmoke
+   }
+
+
+
+   #navigation{
+    
+    width: 220px;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 20px; 
+    color:white;
+   }
+
+   #navigation ul{
+   margin-left:20px
+   }
+
+   #navigation a{
+    color:whitesmoke;
+    }
+
+
+   #main_content{
+    min-height: 400px;
+    width: 600px;
+    background-color: rgb(7, 8, 58);
+    display: inline-block;
+    padding: 20px;
+   }
+
+   #main_content h2{
+    color:whitesmoke;
+   }
+   #main_content p{
+    color:whitesmoke;
+   }
+   #main_content ul{
+    color:whitesmoke;
+   }
+   #main_content ul li{
+    color:whitesmoke;
+    margin-bottom:10px;
+   }
+   #main_content ul li a{
+    color:rgb(4, 237, 245);
+   }
+
+
+   .subcontents{
+    min-height: 200px;
+    width: 210px;
+    background-color: yellow;
+    display: inline-block;
+    margin-right:20px;
+
+   }
+   #advertisement{
+    min-height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin-top: 20px;
+   }
+   

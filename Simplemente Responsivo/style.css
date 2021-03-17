@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+
+}
+
+body{
+    width: 100%;
+}
+
+h1{
+    padding: 20px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.container{
+    display: inline-block;
+    width: 100%;
+}
+
+.bloque{
+    padding: 20px;
+    background-color: darkgrey;
+    border: 1px solid black;
+}
+
+h4{
+    padding: 20px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+@media (max-width: 480px){
+    .sm{
+        display:block;
+    }
+    .med, .lg{
+        display:none;
+    }
+}
+
+@media (min-width: 481px){
+    .med{
+        display:block;
+    }
+    .sm, .lg{
+        display:none;
+    }
+}
+
+@media(min-width:1024px){
+    .lg{
+        display:block;
+    }
+    .sm, .med{
+        display:none;
+    }
+}

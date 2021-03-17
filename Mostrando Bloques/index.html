@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrando Bloques</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <img src="img/github.jpg" alt="github">
+            <h1>Display our Blocks!</h1>
+            <img src="img/catandninja.png" alt="Cat and ninja">
+        </div>
+
+        <div class="main">
+            <div class="bloque"><img class="pares" src="img/dojocat.jpg" alt="dojocat"></div>
+            <div class="bloque"><img class="impares" src="img/heisencat.png" alt="heisencat"></div>
+            <div class="bloque"><img class="pares" src="img/linkcat.png" alt="LINK CAT AWESOME"></div>
+            <div class="bloque"><img class="impares" src="img/ironcat.png" alt="ironcat"></div>
+            <div class="bloque"><img class="pares" src="img/defunktocat.png" alt="defunk"></div>
+
+            <div class="bloque"><img class="pares" src="img/coder2.jpg" alt="coder"></div>
+            <div class="bloque"><img class="impares" src="img/riddlocat.png" alt="riddle"></div>
+            <div class="bloque"><img class="pares" src="img/chellocat.jpg" alt="chello"></div>
+            <div class="bloque"><img class="impares" src="img/stormtroopocat.png" alt="stormtrooper"></div>
+            <div class="bloque"><img class="pares" src="img/visionary.jpg" alt="visionary"></div>
+
+            <div class="bloque"><img class="pares" src="img/cherry.jpg" alt="cherry"></div>
+            <div class="bloque"><img class="impares" src="img/oktobercat.png" alt="oktoberfest"></div>
+            <div class="bloque"><img class="pares" src="img/mario.png" alt="Mario"></div>
+            <div class="bloque"><img class="impares" src="img/cooler.png" alt="Cooler"></div>
+            <div class="bloque"><img class="pares" src="img/jean-luc-picat.jpg" alt="Jean-luc"></div>
+
+            <div class="bloque"><img class="pares" src="img/aidorucat.png" alt="aidoru"></div>
+            <div class="bloque"><img class="impares" src="img/domo-cat2.png" alt="domo"></div>
+            <div class="bloque"><img class="pares" src="img/kantana.jpg" alt="Kantana"></div>
+            <div class="bloque"><img class="impares" src="img/daftpunk.gif" alt="DAFT PUNK"></div>
+            <div class="bloque"><img class="pares" src="img/codercat.jpg" alt="Coder cat"></div>
+        </div>
+
+
+
+    </div>
+
+    <script type="text/javascript">
+        function printUpTo(x) {
+            if (x < 0) {
+                return false;
+                console.log("numero negativo");
+            }
+            else {
+                for (var i = 0; i <= x; i++) {
+                    console.log(i);
+                }
+            }
+        }
+
+        function printSum(x) {
+            var sum = 0;
+
+            if (x > 0) {
+                for (var i = 0; i <= x; i++) {
+                    sum += i;
+                    console.log(i, 'suma: ' + sum);
+                    return sum
+                }
+
+            } else {
+                return false;
+            }
+
+
+        }
+
+        function printSumArray(x) {
+            var sum = 0;
+            for (var i = 0; i < x.length; i++) {
+                sum += x[i];
+            }
+            return sum;
+        }
+
+        function largestElement(x) {
+            var i;
+            var max = x[0]; 
+            for (i = 1; i < x.length; i++) {
+                if (x[i] > max)
+                    max = x[i];
+            }
+            return max;
+        }
+
+
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+/* * { outline: 1px dotted red; } */
+
+.container{
+    width: 800px;
+    background-color: khaki;
+    padding: 30px;
+}
+
+.header{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+    .header img{
+        display:inline-block;
+        width: 180px;
+    }
+    .header h1{
+        display:inline-block;
+    }
+
+.main img{
+    width:130px;
+    display: inline-block;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.main .bloque{
+display: inline-block;
+}
+
+.pares{
+    background-color: #15b0df;
+}
+
+.impares{
+    background-color: #fd8fee;
+}
