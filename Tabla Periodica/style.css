@@ -5,10 +5,10 @@
 .tabla{
     display:grid;
     /* grid-template-columns: repeat(minmax(19, 1fr)) ; */
-    grid-template-columns: repeat(19, 1fr);
-    gap: 1px 3px;
+    grid-template-columns: 1fr 1fr 1fr 1vw 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2px 4px;
     background-color: lightgray;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
 }
 
 
@@ -44,7 +44,7 @@ h3{
     grid-column: 2 / 3;
 }
 .e2{
-    grid-column: 19 / 20;
+    grid-column: 20 / 21;
 }
 .e3, .e11{
     grid-column: 2 / 3;
@@ -53,22 +53,26 @@ h3{
     grid-column: 3 / 4;
 }
 .e5, .e13{
-    grid-column: 14 / 15;
-}
-.e6{
     grid-column: 15 / 16;
 }
-.e7{
+.e6{
     grid-column: 16 / 17;
 }
-.e8{
+.e7{
     grid-column: 17 / 18;
 }
-.e9{
+.e8{
     grid-column: 18 / 19;
 }
-.e10{
+.e9{
     grid-column: 19 / 20;
+}
+.e10{
+    grid-column: 20 / 21;
+}
+
+.e21{
+    grid-column: 5 / 6;
 }
 
 .yellow{
@@ -86,14 +90,14 @@ h3{
 
 .littletable{
     display:grid;
-    grid-template-columns: repeat(19, 1fr);
-    gap: 1px 3px;
+    grid-template-columns: 1fr 1fr 1fr 1vw 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2px 4px;
     background-color: lightgray;
     padding: 20px;
 }
 
     .littletable .titulo{
-        grid-column: 2 / 4;
+        grid-column: 2 / 5;
         align-self: center;
         color:red;
         display:flex;
