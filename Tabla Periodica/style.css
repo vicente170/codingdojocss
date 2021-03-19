@@ -1,0 +1,102 @@
+/* *{
+    outline:1px dotted red;
+}
+ */
+.tabla{
+    display:grid;
+    /* grid-template-columns: repeat(minmax(19, 1fr)) ; */
+    grid-template-columns: repeat(19, 1fr);
+    gap: 1px 3px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+
+.elemento{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.group, .period{
+    text-align: center;
+    color:red;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.period{
+    align-self: center;
+}
+
+p, h3{
+    margin:0;
+}
+p{
+    font-size: 1vw;
+}
+
+h3{
+    font-size: 1.5vw;
+}
+
+.e1{
+    grid-column: 2 / 3;
+}
+.e2{
+    grid-column: 19 / 20;
+}
+.e3, .e11{
+    grid-column: 2 / 3;
+}
+.e4, .e12{
+    grid-column: 3 / 4;
+}
+.e5, .e13{
+    grid-column: 14 / 15;
+}
+.e6{
+    grid-column: 15 / 16;
+}
+.e7{
+    grid-column: 16 / 17;
+}
+.e8{
+    grid-column: 17 / 18;
+}
+.e9{
+    grid-column: 18 / 19;
+}
+.e10{
+    grid-column: 19 / 20;
+}
+
+.yellow{
+    background-color: #FECB00;
+}
+.blue{
+    background-color: #689BFF;
+}
+.pink{
+    background-color: #FD9A98;
+}
+.green{
+    background-color: #1FCA21;
+}
+
+.littletable{
+    display:grid;
+    grid-template-columns: repeat(19, 1fr);
+    gap: 1px 3px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+    .littletable .titulo{
+        grid-column: 2 / 4;
+        align-self: center;
+        color:red;
+        display:flex;
+        justify-content: space-between;
+        
+    }
