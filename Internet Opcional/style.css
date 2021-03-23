@@ -1,0 +1,100 @@
+*{
+    outline:1px dotted red;
+}
+
+header{
+    display: grid;
+    grid-template-rows: 8vw 60px;
+   
+}
+
+header h1{
+    background-color: white;
+    color:black;
+    
+    
+}
+
+header h2{
+    background-color: #4078A7;
+    color:white;
+    padding: 20px;
+    margin:0;
+}
+
+header img{
+    height: 125%;
+    z-index: 2;
+    align-self: flex-start;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    grid-row: 1 / 2;
+    height: 100%;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color:lightgrey;
+    gap:20px;
+}
+
+button{
+    width: 100%;
+}
+
+.imgside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 20px 20px 20px;
+    background-image: url(img/ad_background.png);
+}
+
+.imgside img{
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.imgside h3{
+    color:white;
+    text-align: center;
+}
+
+.headmain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.breadcrumb{
+    display:flex;
+    align-items: center;
+}
+
+.breadcrumb img{
+    width:20px; 
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.contact h2,p{
+    margin: 0;
+}
+.contactfull{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.contactfull img{
+width: 2.5rem;
+}
