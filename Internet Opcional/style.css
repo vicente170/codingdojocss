@@ -1,5 +1,6 @@
 *{
-    outline:1px dotted red;
+    /* outline:1px dotted red; */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 header{
@@ -39,7 +40,7 @@ header img{
 .container{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-color:lightgrey;
+    background-color:#F4F4F4;
     gap:20px;
 }
 
@@ -80,6 +81,13 @@ button{
     width:20px; 
 }
 
+.breadcrumb a{
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
 .contact{
     display: flex;
     align-items: center;
@@ -97,4 +105,107 @@ button{
 }
 .contactfull img{
 width: 2.5rem;
+}
+
+.red{
+    color:red;
+}
+
+.blue{
+    color:blue;
+}
+
+.lblue{
+    color:#03B1DD;
+}
+
+.btn{
+    padding: 7px;
+    width: 95%;
+    margin: 5px;
+    box-shadow: 2px 2px 4px #888888;
+    color: white;
+    border-radius: 5px;
+    border:0px;
+    cursor: pointer;
+    
+}
+
+.buttonb{
+    background-image: linear-gradient(#6699cc, #336699);
+}
+.buttono{
+    background-image: linear-gradient(#ff9966, #ff6600);
+}
+.buttonl{
+    background-image: linear-gradient(#66cccc, #00cccc);
+}
+
+.buttonl::after{
+    content: " \00BB"; 
+    color:white;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.side p{
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-size: 12px;
+    
+}
+
+.side h4{
+    align-self: flex-start;
+}
+
+.side hr{
+    width: 90%;
+}
+
+.main h3{
+    color:#336699;
+}
+
+.main .centerimg{
+    display: flex;
+    justify-content: center;
+    margin:10px 0;
+}
+
+.main .centerimg img{
+    width: 50%;
+}
+
+.htmlbanner{
+    display: flex;
+    padding: 15px;
+    border: 4px solid #336699;
+    align-items: center;
+}
+
+.htmlbanner img{
+    width: 15%;
+    height: auto;
+}
+
+.htmlbanner .content{
+    margin-left: 15px;
+}
+
+.htmlbanner .content h3{
+    margin:0;
+}
+
+.htmlbanner .content p span a{
+    text-decoration: none;
+    color:rgb(25, 90, 187);
+    font-weight: 600;
 }
